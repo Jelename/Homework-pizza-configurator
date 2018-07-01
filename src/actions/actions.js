@@ -18,7 +18,6 @@ export function chooseSauce(sauce) {
 }
 
 export function chooseTopping(topping) {
-  console.log(topping)
   return {
     type: CHOOSE_TOPPING,
     payload: {
@@ -28,7 +27,6 @@ export function chooseTopping(topping) {
 }
 
 export function deleteTopping(topping) {
-  console.log(topping)
   return {
     type: DELETE_TOPPING,
     payload: {

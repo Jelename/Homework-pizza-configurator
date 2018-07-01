@@ -9,16 +9,7 @@ class TotalPrice extends React.PureComponent {
         return total;
     }
 
-    // handleChange = (e) = {
-    //     if (e.target.checked) {
-    //         this.getTotalPrice
-    //     }
-    // }
-
     render() {
-        // const totalPrice = Number(this.props.basePrice) + Number(this.props.saucePrice) + Number(this.props.toppingPrice.length * 0.5);
-        // const total = Number(totalPrice).toFixed(2);
-
         return (
             <div>
                 <h1>Total Price is:</h1>
@@ -31,7 +22,6 @@ class TotalPrice extends React.PureComponent {
                     //checked={}
                     onChange={this.handleChange}
                 /> Add turbo-drone delivery
-                {/* <p>New adjusted price is: {this.dronePrice()}</p> */}
             </div>
         )
     }
