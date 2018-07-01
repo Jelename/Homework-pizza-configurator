@@ -2,9 +2,10 @@ import * as React from 'react'
 import PizzaBase from './PizzaBase';
 import PizzaSauce from './PizzaSauce';
 import PizzaToppings from './PizzaToppings';
-import { connect } from 'react-redux';
+import TotalPrice from './TotalPrice'
+//import { connect } from 'react-redux';
 
-class StartMakingPizza extends React.PureComponent {
+export default class StartMakingPizza extends React.PureComponent {
   render() {
       return (
           <div>
@@ -12,18 +13,19 @@ class StartMakingPizza extends React.PureComponent {
               <PizzaBase />
               <PizzaSauce />
               <PizzaToppings />
-              You chosed: {this.props.base}<br />
-              You chosed: {this.props.sauce}
+              <TotalPrice />
+              {/* You chosed: {this.props.base}<br />
+              You chosed: {this.props.sauce} */}
           </div>
       )
   }
 }
 
-const mapStateToProps = state => {
-    return {
-        base: state.chooseBase,
-        sauce: state.chooseSauce
-    }
-}
+// const mapStateToProps = state => {
+//     return {
+//         base: state.chooseBase,
+//         sauce: state.chooseSauce
+//     }
+// }
 
-export default connect(mapStateToProps)(StartMakingPizza)
+//connect(mapStateToProps)(StartMakingPizza)

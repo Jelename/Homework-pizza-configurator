@@ -1,18 +1,18 @@
 export const bases = [
     {
-        base: '20cm NY Style',
+        name: '20cm NY Style',
         price: 6.45 
     },
     {
-        base: '25cm NY Style',
+        name: '25cm NY Style',
         price: 8.99 
     },
     {
-        base: '30cm NY Style',
+        name: '30cm NY Style',
         price: 11.49 
     },
     {
-        base: '35cm NY Style',
+        name: '35cm NY Style',
         price: 13.49 
     }
 ]
