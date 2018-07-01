@@ -7,17 +7,13 @@ class PizzaToppings extends React.PureComponent {
 
     handleChange = (e) => {
         const value = e.target.value;
-        if (e.target.checked) {
+        if (this.props.topping.indexOf(value) !== -1) {
+            this.props.deleteTopping(value);
+        } else if (e.target.checked) {
             if (this.props.topping.length <= 2) { 
-                //console.log(this.props.topping)
-                //console.log(value);
                 this.props.chooseTopping(value);
             }
         } 
-        
-        // if (e.target.checked) {
-        //     this.props.deleteTopping(value)
-        // }
     }
       
     render() {        

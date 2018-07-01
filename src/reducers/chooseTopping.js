@@ -6,7 +6,7 @@ export default (state = [], action = {}) => {
       console.log([...state, action.payload.topping]);
       return [...state, action.payload.topping]
     case DELETE_TOPPING:
-      return [...state]
+      return state.filter(item => item !== action.payload.topping)
     default:
       return state
   }
