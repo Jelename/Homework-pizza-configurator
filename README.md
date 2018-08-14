@@ -6,4 +6,4 @@ Using forms we created a pizza configurator, where user can choose between lots 
 
 Every step can be changed, so if user pick one kind of pizza base, he can change it any time and new price is going to be calculated.
 
-![example](https://thumbs.gfycat.com/HappygoluckyLightheartedDwarfrabbit-size_restricted.gif)
+![example](https://media.giphy.com/media/3b8Eaqm9QLzWxVHXTL/giphy.gif)
