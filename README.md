@@ -8,4 +8,4 @@ Every step can be changed, so if user pick one kind of pizza base, he can change
 
 Check the project here: https://morning-waters-18061.herokuapp.com/
 
-![example](https://media.giphy.com/media/3b8Eaqm9QLzWxVHXTL/giphy.gif)
+![example](https://media.giphy.com/media/iO7ImrvPwZ0wwU4WET/giphy.gif)
