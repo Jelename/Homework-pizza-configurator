@@ -1,4 +1,4 @@
-#Pizza-configurator
+# Pizza-configurator
 
 This app was created using React and Redux with Controlled Forms.
 
