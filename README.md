@@ -6,6 +6,6 @@ Using forms we created a pizza configurator, where user can choose between lots 
 
 Every step can be changed, so if user pick one kind of pizza base, he can change it any time and new price is going to be calculated.
 
-Check the project here: https://morning-waters-18061.herokuapp.com/
+Check the project here: https://pizza-configurator.herokuapp.com/
 
-![example](https://pizza-configurator.herokuapp.com/)
+![example](https://media.giphy.com/media/iO7ImrvPwZ0wwU4WET/giphy.gif)
